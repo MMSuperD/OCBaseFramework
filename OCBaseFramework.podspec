@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   s.ios.deployment_target = "10.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/MMSuperD/OCBaseFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/MMSuperD/OCBaseFramework.git", :tag => "v0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
