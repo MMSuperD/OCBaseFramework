@@ -13,6 +13,7 @@
 		4A4F79EF22DEB10100D08BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4F79EE22DEB10100D08BB8 /* Assets.xcassets */; };
 		4A4F79F222DEB10100D08BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4F79F022DEB10100D08BB8 /* LaunchScreen.storyboard */; };
 		4A4F79F522DEB10100D08BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F79F422DEB10100D08BB8 /* main.m */; };
+		4A4F79FF22DEB21900D08BB8 /* TextF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F79FE22DEB21900D08BB8 /* TextF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4A4F79F122DEB10100D08BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4F79F322DEB10100D08BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4F79F422DEB10100D08BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A4F79FD22DEB21900D08BB8 /* TextF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextF.h; sourceTree = "<group>"; };
+		4A4F79FE22DEB21900D08BB8 /* TextF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,21 @@
 				4A4F79E622DEB0FA00D08BB8 /* AppDelegate.m */,
 				4A4F79E822DEB0FA00D08BB8 /* ViewController.h */,
 				4A4F79E922DEB0FA00D08BB8 /* ViewController.m */,
+				4A4F79FC22DEB1CB00D08BB8 /* OCBaseFramework */,
 				4A4F79EB22DEB0FA00D08BB8 /* Main.storyboard */,
 				4A4F79EE22DEB10100D08BB8 /* Assets.xcassets */,
 				4A4F79F022DEB10100D08BB8 /* LaunchScreen.storyboard */,
 				4A4F79F322DEB10100D08BB8 /* Info.plist */,
 				4A4F79F422DEB10100D08BB8 /* main.m */,
+			);
+			path = OCBaseFramework;
+			sourceTree = "<group>";
+		};
+		4A4F79FC22DEB1CB00D08BB8 /* OCBaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4A4F79FD22DEB21900D08BB8 /* TextF.h */,
+				4A4F79FE22DEB21900D08BB8 /* TextF.m */,
 			);
 			path = OCBaseFramework;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4F79EA22DEB0FA00D08BB8 /* ViewController.m in Sources */,
+				4A4F79FF22DEB21900D08BB8 /* TextF.m in Sources */,
 				4A4F79F522DEB10100D08BB8 /* main.m in Sources */,
 				4A4F79E722DEB0FA00D08BB8 /* AppDelegate.m in Sources */,
 			);
